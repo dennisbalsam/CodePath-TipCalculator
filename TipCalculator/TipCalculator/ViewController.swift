@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Tip-Calculator
+//  TipCalculator
 //
 //  Created by user162323 on 2/12/20.
 //  Copyright © 2020 Dennis Krupitsky. All rights reserved.
