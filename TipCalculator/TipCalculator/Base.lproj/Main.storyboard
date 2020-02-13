@@ -168,7 +168,11 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="hvJ-KZ-0g5" appends="YES" id="aUS-Lb-k47"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="billAmount" destination="Ump-if-E8H" id="lDq-Ir-oKt"/>
@@ -181,6 +185,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="hvJ-KZ-0g5">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="wFY-b0-UE9"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>

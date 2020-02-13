@@ -52,6 +52,9 @@ class ViewController: UIViewController {
     
     //targets and actions
     
+    @IBAction func onTap(_ sender: Any) {
+        view.endEditing(true)
+    }
     //tip amount slider
     @IBAction func tipSliderValue(sender: Any) {
         tipPercentageLabel.text = String(format: "Tip: %02d%%", Int(tipPercentageSlider.value))
