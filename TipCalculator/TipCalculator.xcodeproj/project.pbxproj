@@ -15,6 +15,7 @@
 		19A93D1123F4E5E300E66FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A93D0F23F4E5E300E66FA7 /* LaunchScreen.storyboard */; };
 		19A93D1C23F4E5E300E66FA7 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A93D1B23F4E5E300E66FA7 /* TipCalculatorTests.swift */; };
 		19A93D2723F4E5E300E66FA7 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A93D2623F4E5E300E66FA7 /* TipCalculatorUITests.swift */; };
+		19A93D3723F4FAFC00E66FA7 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A93D3623F4FAFC00E66FA7 /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		19A93D2223F4E5E300E66FA7 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A93D2623F4E5E300E66FA7 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		19A93D2823F4E5E300E66FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A93D3623F4FAFC00E66FA7 /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				19A93D0423F4E5E200E66FA7 /* AppDelegate.swift */,
 				19A93D0623F4E5E200E66FA7 /* SceneDelegate.swift */,
 				19A93D0823F4E5E200E66FA7 /* ViewController.swift */,
+				19A93D3623F4FAFC00E66FA7 /* TipCalculator.swift */,
 				19A93D0A23F4E5E200E66FA7 /* Main.storyboard */,
 				19A93D0D23F4E5E300E66FA7 /* Assets.xcassets */,
 				19A93D0F23F4E5E300E66FA7 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				19A93D0923F4E5E200E66FA7 /* ViewController.swift in Sources */,
 				19A93D0523F4E5E200E66FA7 /* AppDelegate.swift in Sources */,
 				19A93D0723F4E5E200E66FA7 /* SceneDelegate.swift in Sources */,
+				19A93D3723F4FAFC00E66FA7 /* TipCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
