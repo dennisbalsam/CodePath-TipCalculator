@@ -41,6 +41,9 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="21"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
+                                        <connections>
+                                            <action selector="amountBeforeTipWithSender:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="gsg-nu-ee0"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="0.19607843137254902" green="0.19607843137254902" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -66,6 +69,9 @@
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="12" minValue="10" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="BHS-cC-14n">
                                         <rect key="frame" x="9" y="12" width="222" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="tipSliderValueWithSender:" destination="BYZ-38-t0r" eventType="valueChanged" id="x54-xo-zGB"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -91,6 +97,9 @@
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="6S5-Cm-QN8">
                                         <rect key="frame" x="9" y="12" width="222" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="numPeopleWithSender:" destination="BYZ-38-t0r" eventType="valueChanged" id="Pye-TC-ZHn"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -162,6 +171,16 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="billAmount" destination="YG4-dZ-weP" id="P1U-UX-or6"/>
+                        <outlet property="eachPersonAmount" destination="NYO-1Z-doR" id="XDT-QV-ycE"/>
+                        <outlet property="numPeopleLabel" destination="uA1-Od-dVq" id="Kbr-71-HOc"/>
+                        <outlet property="numPeopleSlider" destination="6S5-Cm-QN8" id="T1s-G3-AxX"/>
+                        <outlet property="tipPercentageLabel" destination="PrY-rB-k5F" id="Rdd-p3-2ul"/>
+                        <outlet property="tipPercentageSlider" destination="BHS-cC-14n" id="ydU-09-Tum"/>
+                        <outlet property="totalAmount" destination="oLl-S6-xWV" id="Wom-MF-Do4"/>
+                        <outlet property="totalAmountLabel" destination="oLl-S6-xWV" id="6hQ-ch-wkc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
